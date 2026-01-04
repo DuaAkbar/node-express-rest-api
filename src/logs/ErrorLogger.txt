@@ -1,0 +1,15 @@
+
+ Request ----> GET URL = /api/v1/books/5 at Tue Dec 23 2025 00:36:54 GMT+0500 (Pakistan Standard Time) Error -----> bookies is not defined
+ Request ----> GET URL = /api/v1/books/5 at Tue Dec 23 2025 00:39:12 GMT+0500 (Pakistan Standard Time) Error -----> Cast to ObjectId failed for value "5" (type string) at path "_id" for model "Books"
+ Request ----> GET URL = /api/v1/books/5 at Tue Dec 23 2025 00:51:57 GMT+0500 (Pakistan Standard Time) Error -----> Cast to ObjectId failed for value "5" (type string) at path "_id" for model "Books"
+ Request ----> DELETE URL = /api/v1/books/5 at Tue Dec 23 2025 00:52:10 GMT+0500 (Pakistan Standard Time) Error -----> Cast to ObjectId failed for value "5" (type string) at path "_id" for model "Books"
+ Request ----> GET URL = /api/v1/books/6949a2a1a4c7e310742215bd at Tue Dec 23 2025 01:00:05 GMT+0500 (Pakistan Standard Time) Error -----> Operation `books.findOne()` buffering timed out after 10000ms
+ Request ----> DELETE URL = /api/v1/books/6949a2a1a4c7e310742215bd at Tue Dec 23 2025 01:00:14 GMT+0500 (Pakistan Standard Time) Error -----> Operation `books.findOne()` buffering timed out after 10000ms
+ Request ----> GET URL = /api/v1/books/ at Wed Dec 24 2025 14:58:25 GMT+0500 (Pakistan Standard Time) Error -----> Operation `books.find()` buffering timed out after 10000ms
+ Request ----> GET URL = /api/v1/books/ at Wed Dec 24 2025 15:07:24 GMT+0500 (Pakistan Standard Time) Error -----> Operation `books.find()` buffering timed out after 10000ms
+ Request ----> DELETE URL = /api/v1/books/66b1a1f1a555555555555555 at Wed Dec 24 2025 15:47:16 GMT+0500 (Pakistan Standard Time) Error -----> responce is not defined
+ Request ----> GET URL = /api/v1/books/6949a2a1a4c7e310742215bd at Wed Dec 24 2025 16:01:50 GMT+0500 (Pakistan Standard Time) Error -----> Parameter "filter" to findOne() must be an object, got "6949a2a1a4c7e310742215bd" (type string)
+ Request ----> GET URL = /api/v1/books/6949a2a1a4c7e310742215bd at Wed Dec 24 2025 16:01:54 GMT+0500 (Pakistan Standard Time) Error -----> Parameter "filter" to findOne() must be an object, got "6949a2a1a4c7e310742215bd" (type string)
+ Request ----> GET URL = /api/v1/books/6949a2a1a4c7e310742215bd at Wed Dec 24 2025 16:02:03 GMT+0500 (Pakistan Standard Time) Error -----> Parameter "filter" to findOne() must be an object, got "6949a2a1a4c7e310742215bd" (type string)
+ Request ----> POST URL = /api/v1/books/ at Wed Dec 24 2025 16:07:10 GMT+0500 (Pakistan Standard Time) Error -----> request is not defined
+ Request ----> POST URL = /api/v1/books/ at Wed Dec 24 2025 16:07:13 GMT+0500 (Pakistan Standard Time) Error -----> request is not defined
